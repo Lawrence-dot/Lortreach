@@ -1,0 +1,411 @@
+html,
+body {
+  padding: 0;
+  background-color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  color: black;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container-m {
+  max-width: 2300px;
+  padding-left: 110px;
+  padding-right: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper-menu {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.wrapper-menu.open {
+  transform: rotate(-45deg);
+}
+
+.spanBreak {
+  display: none;
+}
+
+.line-menu {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  height: 5px;
+}
+
+.line-menu.half {
+  width: 50%;
+}
+
+.line-menu.start {
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: right;
+}
+
+.open .line-menu.start {
+  transform: rotate(-90deg) translateX(5px);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  transform: rotate(-90deg) translateX(-3px);
+}
+
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  right: auto;
+}
+
+.faangSection {
+  background-color: #F5F5F5;
+  color: black;
+}
+
+.faangSection~.circle {
+  left: 70vw;
+}
+
+.faangBtn button {
+  color: white;
+  height: 45px;
+  background: linear-gradient(rgba(2, 170, 176, 1), rgba(0, 203, 172, 1));
+}
+
+.sliderContainer {
+  background: none;
+}
+
+.card {
+  max-width: 350px;
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 11.783626556396484px 35.35087966918945px 0px hsla(0, 0%, 0%, 0.05);
+}
+
+.ethContainer svg {
+  margin-top: 2px;
+}
+
+.ethValue {
+  margin-left: 2px;
+}
+
+.tabImg {
+  border-radius: 32px;
+}
+
+.faangInfo p {
+  font-weight: 600;
+}
+
+.fangImgs span {
+  position: relative;
+  margin-left: -2px !important;
+  z-index: 99;
+}
+
+.faangEth {
+  color: hsla(148, 100%, 34%, 1);
+}
+
+.swiper-pagination {
+  display: block;
+  margin-bottom: -16px;
+  left: -50px !important;
+  padding-top: 10px !important;
+  z-index: 9;
+}
+
+.panelTabs .swiper-pagination {
+  display: block;
+  margin-bottom: -16px;
+  left: 0px !important;
+  padding-top: 10px !important;
+  z-index: 9;
+}
+
+.faangSection .swiper-pagination {
+  width: 100% !important;
+}
+
+.faangSection .swiper-pagination-bullet {
+  top: -20px !important;
+}
+
+.faangSection .swiper {
+  background-color: transparent;
+  height: calc(100% + 22px);
+  width: fit-content;
+}
+
+.swiper {
+  background-color: transparent;
+  height: fit-content;
+}
+
+
+.swiper-pagination-bullet {
+  background: #1A1036 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 99999;
+}
+
+.featureIcon {
+  height: 2.6em;
+}
+
+.fContent p {
+  font-size: .8rem;
+}
+
+.pixel {
+  z-index: 9999;
+  left: 0;
+  top: 159px;
+}
+
+.pixel svg {
+  height: 270px;
+}
+
+.tabList {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  width: max-content;
+  display: flex;
+}
+
+.tabList li {
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.tabList .active {
+  border-bottom: 2px solid #02AAB0;
+}
+
+.tCard {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.trendEth {
+  margin-top: -2px;
+}
+
+.faqSection {
+  background: linear-gradient(180deg, #FFFFFF -6.15%, rgba(242, 242, 242, 0.47) 90.72%);
+}
+
+.faqCard {
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.04);
+  border-radius: 30px;
+  max-width: 1000px;
+  height: 446px;
+  overflow-y: auto;
+}
+
+.faqicon {
+  transition: all .5s ease-in;
+}
+
+.quest {
+  transition: all .5s ease-in-out;
+}
+
+.ansText,
+.faqAnswer {
+  transition: all .5s ease-in-out;
+  vertical-align: middle;
+  font-size: 100%;
+}
+
+.notifyCard {
+  border-radius: 16px;
+  max-width: 1010px;
+}
+
+.susBtn {
+  padding: 14px, 24px, 14px, 24px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.circle svg {
+  height: 450px;
+  width: 600;
+}
+
+.featureSection~.circle svg {
+  margin-top: -30px;
+  height: 10px;
+  width: 80px;
+  position: absolute;
+}
+
+.discountSection>.circle svg {
+  z-index: 9;
+  position: absolute;
+  left: 58vw;
+  height: 400px;
+  top: -150px;
+}
+
+.featureContent .circle svg {
+  height: 500px;
+  width: 900px;
+  margin-left: -90px;
+}
+
+.featureImg img {
+  transition: all .6s ease-in;
+  border-radius: 30px;
+}
+
+.search input {
+  outline: none;
+  width: 400px;
+  transition: all .5s ease-in;
+}
+
+.footerList li {
+  cursor: pointer;
+}
+
+.footerList li:hover {
+  color: #02AAB0;
+}
+
+.footerEnd p,
+.footerEnd li {
+  cursor: pointer;
+}
+
+.footerEnd p:hover,
+.footerEnd li :hover {
+  color: #02AAB0;
+}
+
+.susBtn {
+  height: 35px;
+  margin-top: 7px;
+}
+
+@media (max-width: 1023px) {
+  .container-m {
+    max-width: 2300px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .faangSection .swiper-pagination {
+    width: 100vw !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-m {
+    max-width: 2300px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
+@media (max-width: 639px) {
+  .container-m {
+    max-width: 2300px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  .faqCard {
+    height: 460px;
+    overflow-y: auto;
+  }
+
+  .panelTabs .swiper-pagination {
+    display: block;
+    margin-bottom: -13px;
+    left: 0px !important;
+    z-index: 9;
+  }
+
+
+  .faangSection .swiper-pagination {
+    width: 100vw !important;
+    display: block;
+    margin-bottom: -12px;
+    z-index: 9;
+  }
+
+  .susBtn {
+    height: 35px;
+    margin-top: 7px;
+  }
+
+  .swiper {
+    background-color: transparent;
+    height: fit-content;
+  }
+
+  .faangBtn button {
+    height: 36px;
+  }
+
+  .faangSection .swiper {
+    background-color: transparent;
+    height: calc(100% + 25px);
+  }
+
+}
+
+@media (max-width: 400px) {
+  .spanBreak {
+    display: block;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,73 @@
+.topNav {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    z-index: 99999;
+    transition: all .6s ease;
+    border: none;
+}
+
+.navOpened {
+    height: 280px;
+    border-radius: 0 5px 0 5px;
+}
+
+.topNav img {
+    max-height: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.btnWallet svg {
+    position: relative;
+    top: 12px;
+    left: 1px;
+    width: 20px;
+}
+
+.btnWallet button {
+    height: 45px;
+    color: #ffffff;
+    line-height: 44px;
+    background: linear-gradient(rgba(2, 170, 176, 1), rgba(0, 203, 172, 1));
+    position: relative;
+    top: -1px;
+}
+
+.topNav p {
+    color: #02AAB0;
+    font-family: Sofia Sans;
+    font-weight: 300;
+    font-size: 33.1px;
+    line-height: 44px;
+    vertical-align: top;
+}
+
+.navToggle button {
+    transition: all 1s ease;
+}
+
+.navToggler {
+    padding: 6px;
+}
+
+.navToggler svg {
+    margin-top: -7px !important;
+    transition: all 1s ease;
+}
+
+.navList {
+    transition: all .6s ease;
+}
+
+.navList li {
+    text-align: center;
+    margin: 5px 0;
+    font-size: large;
+    font-weight: 500;
+    transition: all 2s ease;
+}
+
+.navList li a:hover {
+    border-bottom: 4px solid #02AAB0;
+}
