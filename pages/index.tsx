@@ -184,7 +184,12 @@ const Home: NextPage = () => {
 
         <div className="featureContent flex flex-wrap justify-center">
           <div className="featureImg rounded-md">
-            <Image src={"/images/feature.jpg"} height={290} width={320} />
+            <Image
+              src={"/images/feature.jpg"}
+              alt="feature"
+              height={290}
+              width={320}
+            />
           </div>
 
           <div className="featureInfo sm:w-96 lg:ml-10 mt-2 flex flex-col">
