@@ -11,7 +11,7 @@ module.exports = {
       "inline", "mx-1", "text-black", "m-3", "text-[#FF002E]", "rounded", "rounded-lg", "lg:mr-auto", "pt-2",
       "sm:pt-3", "border-l-2", "border-primary", "w-32", "text-sm", "text-md", "text-xl", "text-2xl", "text-3xl",
       "ml-1", "lg:mr-auto", "lg:ml-0", "sm:text-md", "md:text-lg", "xl:mr-auto", "lg:text-4xl", "xl:w-fit", "xl:w-2/5",
-      "xl:mr-auto", "xl:block", "xl:ml-0", "md:text-xl"
+      "xl:mr-auto", "xl:block", "xl:ml-0", "md:text-xl", "md:text-4xl", "lg:text-5xl"
     ],
   theme: {
     extend: {
