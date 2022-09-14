@@ -40,7 +40,7 @@ export const TCards: tcardType[] = [
 
 function Card(props: cardType) {
   return (
-    <div className={`card mx-auto sm:mx-2 px-2 pb-3`}>
+    <div className={`card mx-auto sm:mx-2 px-1 pb-3`}>
       <Image
         className="tabImg bg-none"
         src={props.src}

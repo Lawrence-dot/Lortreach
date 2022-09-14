@@ -51,7 +51,7 @@ function Navbar() {
       <div
         className={`${Styles.btnWallet} navToggle  hidden sm:block w-full pb-16 flex content-center justify-end`}
       >
-        <button className="btn flex block ml-auto mb-16 px-2 rounded border border-green-400 hover:border-black hover:text-black">
+        <button className="btn flex block ml-auto mb-16 px-2 rounded-md border border-green-400 hover:border-black hover:text-black">
           Connect Wallet <HiOutlineLockClosed />
         </button>
       </div>
