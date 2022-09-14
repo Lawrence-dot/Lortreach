@@ -6,7 +6,9 @@ module.exports = {
   ],
   safelist:
     ["hidden", "sm:hidden", "flex", "block", "absolute", "sm:block", "ml-auto", "pb-3", "ml-2", "my-auto", "m-2",
-      "bg-[#1A1036]", "mb-auto", "mx-5", "sm:mx-10", "lg:mx-16", "hover:bg-primary", "hover:text-white"],
+      "bg-[#1A1036]", "mb-auto", "mx-5", "sm:mx-10", "lg:mx-16", "hover:bg-primary", "hover:text-white",
+      "inline", "mx-1", "text-black"
+    ],
   theme: {
     extend: {
       colors: {
