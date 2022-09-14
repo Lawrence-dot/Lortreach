@@ -114,7 +114,7 @@ footer {
   max-width: 350px;
   border-radius: 32px;
   background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0px 11.783626556396484px 35.35087966918945px 0px hsla(0, 0%, 0%, 0.05);
+  box-shadow: 0px 11px 35px 0px hsla(0, 0%, 0%, 0.05);
 }
 
 .ethContainer svg {
@@ -196,7 +196,7 @@ footer {
 .pixel {
   z-index: 9999;
   left: 0;
-  top: 159px;
+  top: 189px;
 }
 
 .pixel svg {
