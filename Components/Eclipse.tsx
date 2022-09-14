@@ -438,7 +438,7 @@ export function Instagram() {
 
 export function Circle() {
   return (
-    <div className="circle absolute max-w-full overflow-x-hidden">
+    <div className="circle absolute hidden xl:block max-w-full overflow-x-hidden">
       <svg
         width="645"
         height="643"

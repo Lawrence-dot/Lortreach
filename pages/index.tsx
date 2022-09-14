@@ -79,15 +79,15 @@ const Home: NextPage = () => {
 
       <div className="faangSection flex flex-wrap justify-center pt-2 sm:pt-3 pb-10 container-m">
         <Dots />
-        <div className="w-full sm:w-fit block">
+        <div className="w-full xl:w-fit block">
           <div className="pldSection">
             <div className="faangTexts sm:text-left sm:mr-16">
               <p className="text-primary mt-7 md:mt-3 mb-4 text-xl sm:text-2xl">
                 {" "}
                 Plan, Build and Deliver.{" "}
               </p>
-              <h2 className="font-bold my-4 text-3xl sm:text-4xl">
-                Effectively get the best <br className="hidden lg:block" />{" "}
+              <h2 className="font-bold my-4 text-3xl lg:text-4xl sm:text-4xl">
+                Effectively get the best <br className="hidden xl:block" />{" "}
                 website developement <br /> service from professionals.
               </h2>
               <p className="text-md sm:text-xl my-3">
@@ -105,11 +105,10 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="w-full  flex mx-auto lg:mr-auto lg:ml-0 justify-center lg:w-2/5 faangTabs text-white">
+        <div className="w-full  flex mx-auto xl:mr-auto xl:ml-0 justify-center xl:w-2/5 faangTabs text-white">
           <Swiper
             modules={[Pagination]}
             pagination={{ clickable: true }}
-            loop={true}
             slidesPerView={2}
             spaceBetween={10}
             breakpoints={{
@@ -120,6 +119,9 @@ const Home: NextPage = () => {
                 slidesPerView: 2,
               },
               1024: {
+                slidesPerView: 3,
+              },
+              1295: {
                 slidesPerView: 1,
               },
             }}
@@ -174,7 +176,7 @@ const Home: NextPage = () => {
       </div>
 
       <div className="featureSection relative py-2 container-m" id="features">
-        <Circle />
+      <Circle />
         <div className="featureHeader mb-5 text-center">
           <p> What We Do</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-primary">
@@ -182,7 +184,7 @@ const Home: NextPage = () => {
             Our Features
           </h2>
         </div>
-
+       
         <div className="featureContent flex flex-wrap justify-center">
           <div className="featureImg rounded-md">
             <Image
