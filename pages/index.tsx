@@ -105,7 +105,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="w-full  flex mx-auto justify-center lg:w-2/5 faangTabs text-white">
+        <div className="w-full  flex mx-auto lg:mr-auto justify-center lg:w-2/5 faangTabs text-white">
           <Swiper
             modules={[Pagination]}
             pagination={{ clickable: true }}
