@@ -145,7 +145,7 @@ footer {
 
 .swiper-pagination {
   display: block;
-  margin-bottom: -16px;
+  margin-bottom: -13px;
   left: -50px !important;
   padding-top: 10px !important;
   z-index: 9;

@@ -105,7 +105,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="w-full  flex mx-auto xl:mr-auto xl:ml-0 justify-center xl:w-2/5 faangTabs text-white">
+        <div className="w-full flex mx-auto xl:mr-auto xl:ml-0 justify-center xl:w-2/5 faangTabs text-white">
           <Swiper
             modules={[Pagination]}
             pagination={{ clickable: true }}
@@ -259,7 +259,7 @@ const Home: NextPage = () => {
           <div className="discountTabs my-4">
             <div className="tabPanel mb-4 flex justify-center">
               <ul className="tabList my-2">
-                <li className="tabLink active" onClick={tabHandler}>
+                <li className="tabLink active text-md sm:text-lg md:text-xl" onClick={tabHandler}>
                   {" "}
                   All{" "}
                 </li>
