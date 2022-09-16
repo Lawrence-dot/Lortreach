@@ -176,7 +176,7 @@ const Home: NextPage = () => {
       </div>
 
       <div className="featureSection relative py-2 container-m" id="features">
-      <Circle />
+        <Circle />
         <div className="featureHeader mb-5 text-center">
           <p> What We Do</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-primary">
@@ -184,7 +184,7 @@ const Home: NextPage = () => {
             Our Features
           </h2>
         </div>
-       
+
         <div className="featureContent flex flex-wrap justify-center">
           <div className="featureImg rounded-md">
             <Image
@@ -259,23 +259,38 @@ const Home: NextPage = () => {
           <div className="discountTabs my-4">
             <div className="tabPanel mb-4 flex justify-center">
               <ul className="tabList my-2">
-                <li className="tabLink active text-md sm:text-lg md:text-xl" onClick={tabHandler}>
+                <li
+                  className="tabLink active text-md sm:text-lg md:text-xl"
+                  onClick={tabHandler}
+                >
                   {" "}
                   All{" "}
                 </li>
-                <li className="tabLink" onClick={tabHandler}>
+                <li
+                  className="tabLink text-md sm:text-lg md:text-xl"
+                  onClick={tabHandler}
+                >
                   {" "}
                   Analysis{" "}
                 </li>
-                <li className="tabLink" onClick={tabHandler}>
+                <li
+                  className="tabLink text-md sm:text-lg md:text-xl"
+                  onClick={tabHandler}
+                >
                   {" "}
                   Web3{" "}
                 </li>
-                <li className="tabLink" onClick={tabHandler}>
+                <li
+                  className="tabLink text-md sm:text-lg md:text-xl"
+                  onClick={tabHandler}
+                >
                   {" "}
                   Ecommerce{" "}
                 </li>
-                <li className="tabLink" onClick={tabHandler}>
+                <li
+                  className="tabLink text-md sm:text-lg md:text-xl"
+                  onClick={tabHandler}
+                >
                   {" "}
                   Gaming{" "}
                 </li>
