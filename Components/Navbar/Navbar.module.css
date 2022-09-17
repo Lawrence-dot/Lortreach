@@ -68,6 +68,10 @@
     transition: all 2s ease;
 }
 
-.navList li a:hover {
+.navList li span {
+    cursor: pointer;
+}
+
+.navList li span:hover {
     border-bottom: 4px solid #02AAB0;
 }

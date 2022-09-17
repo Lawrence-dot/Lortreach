@@ -67,26 +67,26 @@ function Navbar() {
         <ul>
           <li onClick={() => scroll("home")}>
             {" "}
-            <a href="#"> Home</a>{" "}
+            <span> Home</span>{" "}
           </li>
           <li onClick={() => scroll("features")}>
             {" "}
-            <a href="#"> Our Features</a>{" "}
+            <span> Our Features</span>{" "}
           </li>
           <li onClick={() => scroll("discounts")}>
             {" "}
-            <a href="#"> Discounts </a>
+            <span> Discounts </span>
           </li>
           <li onClick={() => scroll("trending")}>
             {" "}
-            <a href="#"> Trending </a>{" "}
+            <span> Trending </span>{" "}
           </li>
           <li
             style={{ opacity: `${open ? "1" : "0"}` }}
             onClick={() => scroll("faqs")}
           >
             {" "}
-            <a href="#"> Faqs </a>{" "}
+            <span> Faqs </span>{" "}
           </li>
           <div className={`${Styles.btnWallet} navToggle w-full pb-16`}>
             <button className="btn flex block my-2 mx-auto mb-16 px-2 rounded border border-green-400 hover:border-black hover:text-black">
