@@ -83,8 +83,6 @@ p {
   transform: rotate(-90deg) translateX(-3px);
 }
 
-
-
 footer {
   position: relative;
   bottom: 0;
@@ -366,14 +364,14 @@ footer {
 
   .panelTabs .swiper-pagination {
     display: block;
-    margin-bottom: -13px;
+    margin-bottom: -11.5px;
     left: 0px !important;
     z-index: 9;
   }
 
 
   .faangSection .swiper-pagination {
-    width: 100vw !important;
+    width: calc(100vw + 40px) !important;
     display: block;
     margin-bottom: -12px;
     z-index: 9;
