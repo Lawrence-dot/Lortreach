@@ -27,7 +27,7 @@ function Navbar() {
         open && Styles.navOpened
       } flex-col sm:flex-row ${
         Styles.topNav
-      } py-2 mb-3 pb-4 content-center container-m bg-slate-300S`}
+      } py-2 mb-3 content-center container-m bg-slate-300S`}
     >
       <div
         className="loGo w-full  py-1 sm:w-16 flex z-40"

@@ -151,7 +151,7 @@ footer {
 
 .panelTabs .swiper-pagination {
   display: block;
-  margin-bottom: -16px;
+  margin-bottom: -12.5px;
   left: 0px !important;
   padding-top: 10px !important;
   z-index: 9;
@@ -334,7 +334,10 @@ footer {
   }
 
   .faangSection .swiper-pagination {
-    width: 100vw !important;
+    width: calc(100vw + 40px) !important;
+    display: block;
+    margin-bottom: -12px;
+    z-index: 9;
   }
 }
 

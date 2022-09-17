@@ -94,7 +94,7 @@ function Card(props: cardType) {
           <span className="ethValue text-sm sm:text-md">{props.eth}ETH</span>
         </div>
         <div className="ml-auto">
-          <span className="text-black text-sm  sm:text-md block ml-auto">
+          <span className="text-black text-sm sm:text-md block ml-auto">
             {" "}
             {props.active} of {props.total} devs available
           </span>
